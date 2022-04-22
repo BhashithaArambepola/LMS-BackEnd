@@ -43,11 +43,10 @@ public class StudentDTO implements Serializable {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "StudentDTO{" +
                 "name='" + name + '\'' +
                 ", id='" + id + '\'' +
                 ", email='" + email + '\'' +
                 '}';
     }
-
 }
